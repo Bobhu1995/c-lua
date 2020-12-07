@@ -15,7 +15,8 @@ cmake .
 make
 
 
-#windows
+# windows
+编译环境 vs 2019 ，不同版本对于lib的标准有所不同。
 
 直接打开c-lua.sln直接运行，选择Debug x86
 
@@ -26,3 +27,6 @@ make
 2.选择链接器–常规–附加库目录–选择Lua库文件目录，这个目录为我们下载Lua源码后解压的那个目录。	$(SolutionDir)..\
 
 3.选择链接器–输入–附加依赖项–输入我们所编译的lua-5.4.2.lib库文件名称。	lua-5.4.2.lib
+
+# 生成lua静态库
+https://blog.csdn.net/weixin_43603958/article/details/109015563
