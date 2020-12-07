@@ -1,0 +1,1 @@
+/opt/rh/devtoolset-9/root/usr/bin/c++       CMakeFiles/main.dir/main.cpp.o  -o main  -L/usr/local/bob/lua/lua-cmake -rdynamic -llua -Wl,-rpath,/usr/local/bob/lua/lua-cmake 
