@@ -17,7 +17,7 @@ make
 
 #windows
 
-直接打开c-lua.sln直接运行
+直接打开c-lua.sln直接运行，选择Debug x86
 
 如果要改变目录结构，三个需要改动的点
 
