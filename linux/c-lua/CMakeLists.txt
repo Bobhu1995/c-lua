@@ -6,7 +6,9 @@ include_directories(/usr/local/bob/lua-cmake/)
 
 link_directories("/usr/local/bob/lua/lua-cmake/")
 
+
 link_libraries(lua)
+link_libraries(dl)
 
 
 add_executable(main main.cpp)
