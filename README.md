@@ -14,6 +14,11 @@ cmake .
 
 make
 
+cd c-so
+
+make 
+
+lua lua-call-so.lua  //lua5.4
 
 # windows
 编译环境 vs 2019 ，不同版本对于lib的标准有所不同。
